@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+signy/
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Large data files
+data/sequences/
+data/X_*.npy
+data/y_*.npy
+
+# Trained models
+models/
+checkpoints/
+
+# TensorBoard logs
+logs/tensorboard/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Datasets (Too large - do not upload)
+WASL_kggle_ds/
+WASL_kggl_ds*/
+dataset_phase1/
+Dataset_v1/
+
+# Frontend dependencies (Created locally via npm install)
+node_modules/
+frontend/node_modules/
+frontend/build/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
